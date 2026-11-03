@@ -1,3 +1,9 @@
+# Original template from Void Linux void-packages
+# Source: srcpkgs/mozc/template
+# Repository: https://github.com/void-linux/void-packages
+# Purpose: Reference snapshot for comparison and upstream tracking.
+# Original copyright and license notices are retained.
+#
 # Template file for 'mozc'
 pkgname=mozc
 reverts="2.32.5851.102_1"
