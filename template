@@ -80,10 +80,6 @@ post_extract() {
 }
 
 pre_build() {
-	echo "DEBUG: wrksrc=$wrksrc"
-	echo "DEBUG: XBPS_SRCDISTDIR=$XBPS_SRCDISTDIR"
-	echo "DEBUG: jawiki_index=$jawiki_index"
-
 	local wrksrc_ut="$wrksrc/mozcdic-ut.txt"
 	local dictdir="$wrksrc/mozc/src/data/dictionary_oss"
 	local jawiki_index="$XBPS_SRCDISTDIR/$pkgname-$version/jawiki-20261001-pages-articles-multistream-index.txt.bz2"
