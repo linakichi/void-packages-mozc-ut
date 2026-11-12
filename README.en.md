@@ -1,8 +1,10 @@
 # Mozc-UT for Void Linux
 
-This repository contains the template and related files required to build and package Mozc-UT for Void Linux.
+This repository provides the templates, build environment, and related scripts required to build and package Mozc-UT for Void Linux. Prebuilt XBPS packages are not distributed.
 
-It provides the build environment and related files only. Prebuilt XBPS packages are not distributed.
+This project does not grant permission to redistribute the generated binary packages.
+
+Anyone redistributing such packages must independently verify the license terms of all included data and software.
 
 ## Overview
 
