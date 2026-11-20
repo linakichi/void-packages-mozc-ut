@@ -133,6 +133,19 @@ For details about source locations, versions, licenses, and other information, s
 
 The dictionary composition may change in future updates.
 
+## Maintenance Policy
+
+This project prioritizes stability, reproducibility, and maintainability over continuously tracking the latest upstream releases.
+
+- Security vulnerabilities and critical issues will be prioritized.
+- Build, installation, and runtime issues will be investigated and addressed as appropriate.
+- Upstream changes will be evaluated before being incorporated.
+- Dictionary data versions are pinned by default and updated when necessary.
+- The selected dictionaries and their versions are explicitly documented.
+- Routine updates are not performed solely to follow the latest releases.
+
+Users who prefer more frequent updates or different dictionary configurations are welcome to maintain their own forks.
+
 ## Updating
 
 ### Updating void-packages
